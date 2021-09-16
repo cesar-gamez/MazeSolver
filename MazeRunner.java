@@ -7,7 +7,7 @@ public class MazeRunner
         Maze mOne = new Maze("U:\\CS3\\basicMaze (1).dat");
         System.out.print(mOne + "\n");
         Stack<Cell> cellStackOne = new Stack<Cell>();
-        System.out.print(Solver.solve(mOne.getMaze(), 0, 0, cellStackOne) + "\n" + "\n");
+        System.out.print(Solver.solve(mOne.getMaze(), 0, 0, cellStackOne) + "\n");
         System.out.println(mOne);
         
         //Maze 2
@@ -15,7 +15,7 @@ public class MazeRunner
         Maze mTwo = new Maze("U:\\CS3\\maze3.dat");
         System.out.print(mTwo + "\n");
         Stack<Cell> cellStackTwo = new Stack<Cell>();
-        System.out.print(Solver.solve(mTwo.getMaze(), 0, 0, cellStackTwo) + "\n" + "\n");
+        System.out.print(Solver.solve(mTwo.getMaze(), 0, 0, cellStackTwo) + "\n");
         System.out.println(mTwo);
        
         //Maze 3
@@ -23,7 +23,7 @@ public class MazeRunner
         Maze mThree = new Maze("U:\\CS3\\bigmaze5.dat");
         System.out.print(mThree + "\n");
         Stack<Cell> cellStackThree = new Stack<Cell>();
-        System.out.print(Solver.solve(mThree.getMaze(), 0, 0, cellStackThree) + "\n" + "\n");
+        System.out.print(Solver.solve(mThree.getMaze(), 0, 0, cellStackThree) + "\n");
         System.out.println(mThree);
     }
 }
