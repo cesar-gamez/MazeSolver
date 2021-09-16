@@ -32,7 +32,7 @@ public class Maze
     public Cell[][] getMaze() {
         return maze;
     }
-    //Come back to this toString
+    
     public String toString() {
         String str = "";
         for(Cell[] m : maze) {
